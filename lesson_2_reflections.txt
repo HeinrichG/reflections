@@ -7,3 +7,7 @@ How is the staging area different from the working directory and the repository?
 
 - The staging area doesn't contain the files themselves, but instead only the names of the files that should be included in the next commit. The working directory is the current "folder" you are in and this can also contain a repository if you initialised Git in it (git init). The repository contains all files you committed to it from the working directory.
 - You can decide which file should be part of the repository to better control what needs to have a version control
+
+How can you use the staging area to make sure you have one commit per logical change?
+
+- You can save all the changes required for the "bigger" logical change in the staging area and only commit when all changes are stores there. You can check it by using git diff to compare the staing area to the working directory

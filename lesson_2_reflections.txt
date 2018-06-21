@@ -9,10 +9,14 @@ How is the staging area different from the working directory and the repository?
 - You can decide which file should be part of the repository to better control what needs to have a version control
 
 How can you use the staging area to make sure you have one commit per logical change?
-
+ 
 - You can save all the changes required for the "bigger" logical change in the staging area and only commit when all changes are stores there. You can check it by using git diff to compare the staing area to the working directory
 
 What are some situations when branches would be helpful in keeping your history organized? How would branches help?
 
 - When experimenting with different versions/code => create a "Test" branch to test things without changing the stable versions
 - Teamwork: You could create diffenrent branches for the teammembers, so they can work on their version without changing the version of others (= the master) when committing
+
+How do the diagrams help you visualize the branch structure?
+
+- It clearly shows which commit belongs to which branch and therefore shows you which commit you can "reach" from the current one

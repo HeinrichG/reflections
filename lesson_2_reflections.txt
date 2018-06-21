@@ -25,3 +25,8 @@ What is the result of merging two branches together? Why do we represent it in t
 
 - It results in one combined branch (using the label ob the first branch in the git command)
 - Because we are able to reach all commits of the both former branches from new one 
+
+What are the pros and cons of Git’s automatic merging vs. always doing merges manually?
+
+- Pros: Saves Time
+- Cons: Not in full control

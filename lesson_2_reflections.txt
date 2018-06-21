@@ -1,0 +1,4 @@
+What happens when you initialize a repository? Why do you need to do it?
+
+- It creates a .git file in the current directory
+- To tell Git which directory should be a repository. Technically you probably need the .git file to store the version information

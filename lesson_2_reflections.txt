@@ -2,3 +2,8 @@ What happens when you initialize a repository? Why do you need to do it?
 
 - It creates a .git file in the current directory
 - To tell Git which directory should be a repository. Technically you probably need the .git file to store the version information
+
+How is the staging area different from the working directory and the repository? What value do you think it offers?
+
+- The staging area doesn't contain the files themselves, but instead only the names of the files that should be included in the next commit. The working directory is the current "folder" you are in and this can also contain a repository if you initialised Git in it (git init). The repository contains all files you committed to it from the working directory.
+- You can decide which file should be part of the repository to better control what needs to have a version control

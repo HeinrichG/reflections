@@ -20,3 +20,8 @@ What are some situations when branches would be helpful in keeping your history 
 How do the diagrams help you visualize the branch structure?
 
 - It clearly shows which commit belongs to which branch and therefore shows you which commit you can "reach" from the current one
+
+What is the result of merging two branches together? Why do we represent it in the diagram the way we do?
+
+- It results in one combined branch (using the label ob the first branch in the git command)
+- Because we are able to reach all commits of the both former branches from new one 

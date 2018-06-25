@@ -22,3 +22,7 @@ How would you collaborate without using Git or GitHub? What would be easier, and
 - Dropbox, Google Docs => Cloud Services
 - Easier: GUI
 - Harder: Comparing the changes
+
+When would you want to make changes in a separate branch rather than directly in master? What benefits does each approach have?
+
+- See reflections from lesson 2
